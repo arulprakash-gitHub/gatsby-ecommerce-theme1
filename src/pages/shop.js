@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+0import React, { useState, useEffect } from 'react';
 import * as styles from './shop.module.css';
 
 import Banner from '../components/Banner';
@@ -45,9 +45,6 @@ const ShopPage = (props) => {
         <Banner
           maxWidth={'650px'}
           name={`Woman's Sweaters`}
-          subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
-          }
         />
         <Container size={'large'} spacing={'min'}>
           <div className={styles.metaContainer}>
