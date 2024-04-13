@@ -21,9 +21,7 @@ const IndexPage = () => {
   const newArrivals = generateMockProductData(3, 'shirt');
   const blogData = generateMockBlogData(3);
 
-  const goToShop = () => {
-    navigate('/shop');
-  };
+
 
   return (
     <Layout disablePaddingBottom>
@@ -32,8 +30,6 @@ const IndexPage = () => {
         maxWidth={'500px'}
         image={'/banner1.png'}
         subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
       />
 
       {/* Message Container */}
